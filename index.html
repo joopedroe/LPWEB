@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+      <script type="text/javascript" src="Atividade.js">
+      
+        </script>
+
+      <Div>
+          <form>
+              <input id="entrada" type="text">
+              <button onclick="TratarInput1(document.getElementById('entrada'))">Salvar</button>
+          </form>
+      </Div>
+      <script>
+      function TratarInput(texto){
+        var atividade = texto.split(' em ');
+        alert(atividade)
+        return atividade;
+        }</script>
+  </body>
+</html>
